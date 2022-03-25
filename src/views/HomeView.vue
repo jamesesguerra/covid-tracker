@@ -4,7 +4,7 @@
     <DataBoxes :stats="stats" />
     <CountrySelect :countries="countries" @get-country="getCountryData" />
     <button @click="clearCountry" v-if="stats.Country" 
-    class="bg-zinc-800 text-white rounded p-3 mt-10 mx-auto block focus:outline-none hover:bg-zinc-600">
+    class="bg-zinc-800 text-white rounded p-3 mt-5 mx-auto block focus:outline-none hover:bg-zinc-600">
       Clear Country
     </button>
   </main>
