@@ -1,4 +1,5 @@
 <template>
+  
   <main v-if="!loading" class="mb-10">
     <DataTitle :text="title" :dataDate="dataDate" />
     <DataBoxes :stats="stats" />
@@ -15,6 +16,8 @@
     </div>
     <img :src="loadingImage" class="w-16 m-auto"/>
   </main>
+  
+
 </template>
 
 <script>
@@ -63,3 +66,4 @@ export default {
   },
 }
 </script>
+
